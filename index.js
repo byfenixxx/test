@@ -377,18 +377,23 @@
 //   })
 // })
 
-const x = 2;
+// const x = 2;
 
-const myPromise = new Promise((res, rej) => {
-  if (x === 2) {
-    res("good job")
-  } else {
-    rej("bad job")
-  }
-})
+// const myPromise = new Promise((res, rej) => {
+//   if (x === 2) {
+//     res("good job")
+//   } else {
+//     rej("bad job")
+//   }
+// })
 
-myPromise.then(res => {
-  return new Promise((rs, rj) => {
-    rs("good job 2")
-  })
-}).then(data => console.log(data))
+// myPromise.then(res => {
+//   return new Promise((rs, rj) => {
+//     rs("good job 2")
+//   })
+// }).then(data => console.log(data))
+
+
+// First commit
+
+console.log("First commit");
