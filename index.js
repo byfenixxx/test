@@ -377,6 +377,7 @@
 //   })
 // })
 
+<<<<<<< HEAD
 // const x = 2;
 
 // const myPromise = new Promise((res, rej) => {
@@ -400,3 +401,20 @@
 
 // third commit
 console.log("Third commit");
+=======
+const x = 2;
+
+const myPromise = new Promise((res, rej) => {
+  if (x === 2) {
+    res("good job")
+  } else {
+    rej("bad job")
+  }
+})
+
+myPromise.then(res => {
+  return new Promise((rs, rj) => {
+    rs("good job 2")
+  })
+}).then(data => console.log(data))
+>>>>>>> parent of 699d447 (second commit)
